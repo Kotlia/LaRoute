@@ -21,8 +21,12 @@
   },
   "homepage": "https://github.com/Kotlia/LaRoute#readme",
   "dependencies": {
+    "child_process": "^1.0.2",
+    "express": "^4.17.1",
     "fs": "^0.0.1-security",
     "fs-extra": "^9.0.1",
+    "graceful-fs": "^4.2.4",
+    "path": "^0.12.7",
     "walk": "^2.3.14"
   }
 }
