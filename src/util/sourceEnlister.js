@@ -11,7 +11,7 @@ export const getFileList = async() => {
         })
         walker.on('end', () => {
             fileList = fileList
-                .filter(it => it.endsWith(".html") && !it.includes("index.html"))
+                .filter(it => it.endsWith(".html") && !it.includes("index.html") &&  !it.includes("node_modules"))
                 .map(it => it.replace(new RegExp(/\\/g), "/").replace(new RegExp(/.html/g), "").substring(1))
             resolve(fileList)
         })
