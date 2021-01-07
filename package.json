@@ -1,0 +1,27 @@
+{
+  "name": "laroute",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "laroute": "--experimental-specifier-resolution=node --no-warnings src/index.js"
+  },
+  "scripts": {
+    "test": "echo \\\"Error: no pages specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kotlia/LaRoute.git"
+  },
+  "author": "Kotlia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kotlia/LaRoute/issues"
+  },
+  "homepage": "https://github.com/Kotlia/LaRoute#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "walk": "^2.3.14"
+  }
+}
