@@ -22,6 +22,7 @@
   "homepage": "https://github.com/Kotlia/LaRoute#readme",
   "dependencies": {
     "fs": "^0.0.1-security",
+    "fs-extra": "^9.0.1",
     "walk": "^2.3.14"
   }
 }
